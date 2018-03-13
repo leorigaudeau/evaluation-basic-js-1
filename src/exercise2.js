@@ -1,6 +1,6 @@
 var mapCustomer = function(customer) {
   
-  /*if (output===undefined) {
+  if (output===undefined) {
     var output={
       firstname: 'John',
       lastname: 'Doe',
@@ -8,14 +8,15 @@ var mapCustomer = function(customer) {
       moneySpent: 0
     };
     return output;
-  }*/
+  }
 
   var output=customer;
   var totalMoneySpent;
-  for (let index = 0; index < customer.length; index++) {
-    totalMoneySpent+=2
-    
+  for (let index = 0; index < moneySpent.length; index++) {
+    totalMoneySpent+=output.products.price;
+    return console.log(output.products.price)
   }
+
 
   return output
   
